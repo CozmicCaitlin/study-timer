@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Silkscreen-regular';
-  src: local('Silkscreen-regular');
+  src: url("../study-timer/Silkscreen-Regular.ttf") format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Silkscreen-bold';
-  src: local('Silkscreen-bold');
+  src: url("../study-timer/Silkscreen-Bold.ttf") format('truetype');
   font-weight: 700;
   font-style: normal;
 }
