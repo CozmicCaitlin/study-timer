@@ -1,14 +1,14 @@
 
 @font-face {
   font-family: 'SilkscreenRegular';
-  src: url("../CSS/Fonts/Silscreen-Regular.ttf");
+  src: url("https://github.com/CozmicCaitlin/study-timer/blob/main/CSS/Fonts/Silkscreen-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SilkscreenBold';
-  src: url("/CSS/Fonts/Silkscreen-Bold");
+  src: url("https://github.com/CozmicCaitlin/study-timer/blob/main/CSS/Fonts/Silkscreen-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
