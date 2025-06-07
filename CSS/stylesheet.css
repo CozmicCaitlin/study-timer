@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Silkscreen-regular';
-  src: url("study-timer/Silkscreen-Regular.ttf") format('truetype');
+  font-family: SilkscreenRegular;
+  src: url("study-timer/Silkscreen-Regular.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Silkscreen-bold';
-  src: url("study-timer/Silkscreen-Bold.ttf") format('truetype');
+  font-family: SilkscreenBold;
+  src: url("Silkscreen-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -38,7 +38,7 @@ top: 129px;
 position: absolute; 
 color: black; 
 font-size: 48px; 
-font-family: 'Silkscreen-bold'; 
+font-family: SilkscreenBold; 
 font-weight: 700; 
 word-wrap: break-word;
 letter-spacing: -9.6px;
@@ -49,7 +49,7 @@ position: absolute;
 text-align: center; 
 color: black; 
 font-size: 23px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: break-word;
 letter-spacing: -3.91px;
@@ -71,7 +71,7 @@ solid; outline-offset: -6px
 padding-left: 12px;
 color: #F5F5F5; 
 font-size: 38px; 
-font-family: Silkscreen-bold; 
+font-family: SilkscreenBold; 
 font-weight: 400; 
 text-decoration: none;
 }
@@ -85,7 +85,7 @@ position: absolute;
 text-align: center; 
 color: black; 
 font-size: 14px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: break-word;
 letter-spacing: -1.86px;
@@ -98,7 +98,7 @@ position: absolute;
 text-align: center; 
 color: black; 
 font-size: 16px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: break-word
 }
@@ -115,7 +115,7 @@ top: 19px;
 position: absolute; 
 color: black; 
 font-size: 38px; 
-font-family: Silkscreen-bold; 
+font-family: SilkscreenBold; 
 font-weight: 700; 
 word-wrap: break-word;
 letter-spacing: -7px;
@@ -150,7 +150,7 @@ text-align: center;
 padding-top: 10px;
 color: black; 
 font-size: 26px; 
-font-family: Silkscreen-Bold; 
+font-family: SilkscreenBold; 
 font-weight: 400; 
 word-wrap: break-word;
 letter-spacing: -3.91px;
@@ -164,7 +164,7 @@ padding-top: 5px;
 text-align: left; 
 color: black; 
 font-size: 16px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: normal;
 letter-spacing: -1.2px;
@@ -175,7 +175,7 @@ position: absolute;
 text-align: center; 
 color: black; 
 font-size: 16px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: break-word  
 }
@@ -196,7 +196,7 @@ display: flex;
 flex-direction: column; 
 color: black; 
 font-size: 28px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: break-word;
 text-decoration: none;
@@ -214,84 +214,8 @@ position: absolute;
 text-align: center; 
 color: white; 
 font-size: 30px; 
-font-family: Silkscreen-regular; 
+font-family: SilkscreenRegular; 
 font-weight: 400; 
 word-wrap: break-word;
 letter-spacing: -3.2px;
 }
-
-
-
-/* OLD CODE BELOW
-#startPage {
-  display: block;
-  width: 400px;
-  height: 502px;
-  padding: 77px 25px 25px 25px;
-  align-items: center;
-  background: var(--background-blue, #EEF7F6);
-}
-
-#startFrame {
-  width: 350px;
-  height: 400px;
-  border: 6px solid #000;
-  background: var(--background-cream, #FFFBED);
-  align-content: center;
-}
-
-.Heading {
-  color: #000;
-  text-align: center;
-  font-family: Silkscreen-bold, sans-serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -9.6px;
-}
-
-.bodyText {
-  color: #000;
-  text-align: center;
-  font-family: Silkscreen-regular, sans-serif;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.91px;
-}
-
-.startButton {
-width: 181px;
-height: 54px;
-padding: 0px 23px 5px 25px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border: 6px solid var(--D-purple, #424359);
-background: var(--L-purple, #616383);
-color: #F5F5F5;
-text-align: center;
-font-family: Silkscreen-regular, sans-serif;
-font-size: 38px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
-}
-
-.subText {
-width: 333px;
-height: 19px;
-flex-shrink: 0;
-color: #000;
-align-content: baseline;
-font-family: Silkscreen-regular, sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -1.86px;
-}
-End of old code */
