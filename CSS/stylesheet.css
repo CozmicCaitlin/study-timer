@@ -1,0 +1,297 @@
+@font-face {
+  font-family: 'Silkscreen-regular';
+  src: local('Silkscreen-regular');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Silkscreen-bold';
+  src: local('Silkscreen-bold');
+  font-weight: 700;
+  font-style: normal;
+}
+
+#startPage {
+  width: 400px; 
+height: 502px; 
+position: relative; 
+background: var(--background-blue, #EEF7F6); 
+overflow: hidden
+}
+
+#Frame {
+width: 350px; 
+height: 400px; 
+left: 25px; 
+top: 77px; 
+position: absolute; 
+background: var(--background-cream, #FFFBED); 
+overflow: hidden; 
+outline: 6px black solid; 
+outline-offset: -6px
+}
+
+.startHeading {
+left: 11px; 
+top: 129px; 
+position: absolute; 
+color: black; 
+font-size: 48px; 
+font-family: Silkscreen-bold; 
+font-weight: 700; 
+word-wrap: break-word;
+letter-spacing: -9.6px;
+}
+
+.subHeading {
+position: absolute; 
+text-align: center; 
+color: black; 
+font-size: 23px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: break-word;
+letter-spacing: -3.91px;
+}
+
+.startButton {
+width: 181px; 
+height: 54px; 
+left: 84px; 
+top: 219px; 
+position: absolute; 
+background: var(--L-purple, #616383); 
+overflow: hidden; 
+outline: 6px var(--D-purple, #424359) 
+solid; outline-offset: -6px
+}
+
+.startButtonText {
+padding-left: 12px;
+color: #F5F5F5; 
+font-size: 38px; 
+font-family: Silkscreen-bold; 
+font-weight: 400; 
+text-decoration: none;
+}
+
+.subText {
+width: 333px; 
+height: 19px; 
+left: 8px; 
+top: 372px; 
+position: absolute; 
+text-align: center; 
+color: black; 
+font-size: 14px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: break-word;
+letter-spacing: -1.86px;
+}
+
+.bodyText {
+width: 131px; 
+height: 20px;
+position: absolute; 
+text-align: center; 
+color: black; 
+font-size: 16px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: break-word
+}
+
+.typeImage {
+  width: 125px; 
+  height: 125px;
+  position: absolute; 
+}
+
+.Header {
+left: 21px; 
+top: 19px;
+position: absolute; 
+color: black; 
+font-size: 38px; 
+font-family: Silkscreen-bold; 
+font-weight: 700; 
+word-wrap: break-word;
+letter-spacing: -7px;
+}
+
+.backButton {
+width: 40px; 
+height: 40px; 
+left: 289px; 
+top: 25px; 
+position: absolute; 
+overflow: hidden; 
+outline: 6px black solid; 
+outline-offset: -6px;
+cursor: pointer;
+}
+
+.closeButton {
+width: 40px; 
+height: 40px; 
+left: 335px; 
+top: 25px; 
+position: absolute; 
+overflow: hidden; 
+outline: 6px black solid; 
+outline-offset: -6px
+}
+
+.timerHeading {
+position: center; 
+text-align: center; 
+padding-top: 10px;
+color: black; 
+font-size: 26px; 
+font-family: Silkscreen-Bold; 
+font-weight: 400; 
+word-wrap: break-word;
+letter-spacing: -3.91px;
+}
+
+.timerExplain {
+position: center; 
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 5px;
+text-align: left; 
+color: black; 
+font-size: 16px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: normal;
+letter-spacing: -1.2px;
+}
+
+.normalText {
+position: absolute; 
+text-align: center; 
+color: black; 
+font-size: 16px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: break-word  
+}
+
+.timeButton {
+width: 121px; 
+height: 51px; 
+position: absolute; 
+background: #A6A9DA; 
+overflow: hidden; 
+outline: 6px #676997 solid; 
+outline-offset: -6px;
+
+position: absolute; 
+text-align: center; 
+justify-content: center; 
+display: flex; 
+flex-direction: column; 
+color: black; 
+font-size: 28px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: break-word;
+text-decoration: none;
+}
+
+.timerButton {
+width: 151px; 
+height: 47px; 
+top: 335px; 
+position: absolute; 
+overflow: hidden; 
+outline-offset: -6px;
+
+position: absolute; 
+text-align: center; 
+color: white; 
+font-size: 30px; 
+font-family: Silkscreen-regular; 
+font-weight: 400; 
+word-wrap: break-word;
+letter-spacing: -3.2px;
+}
+
+
+
+/* OLD CODE BELOW
+#startPage {
+  display: block;
+  width: 400px;
+  height: 502px;
+  padding: 77px 25px 25px 25px;
+  align-items: center;
+  background: var(--background-blue, #EEF7F6);
+}
+
+#startFrame {
+  width: 350px;
+  height: 400px;
+  border: 6px solid #000;
+  background: var(--background-cream, #FFFBED);
+  align-content: center;
+}
+
+.Heading {
+  color: #000;
+  text-align: center;
+  font-family: Silkscreen-bold, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -9.6px;
+}
+
+.bodyText {
+  color: #000;
+  text-align: center;
+  font-family: Silkscreen-regular, sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.91px;
+}
+
+.startButton {
+width: 181px;
+height: 54px;
+padding: 0px 23px 5px 25px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border: 6px solid var(--D-purple, #424359);
+background: var(--L-purple, #616383);
+color: #F5F5F5;
+text-align: center;
+font-family: Silkscreen-regular, sans-serif;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.subText {
+width: 333px;
+height: 19px;
+flex-shrink: 0;
+color: #000;
+align-content: baseline;
+font-family: Silkscreen-regular, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.86px;
+}
+End of old code */
