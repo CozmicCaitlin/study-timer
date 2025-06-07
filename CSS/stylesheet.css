@@ -1,13 +1,13 @@
 @font-face {
   font-family: SilkscreenRegular;
-  src: url("study-timer/Silkscreen-Regular.ttf");
+  src: url("CSS/Fonts/Silkscreen-Regular.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: SilkscreenBold;
-  src: url("Silkscreen-Bold.ttf");
+  src: url("CSS/Fonts/Silkscreen-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
